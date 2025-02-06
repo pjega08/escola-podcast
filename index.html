@@ -1,20 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>School Webpage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
-        h1 {
-            color: blue;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Podcast</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to Our School</h1>
-    <p>This is the official webpage of our school.</p>
+    <header>
+        <h1>School Podcast</h1>
+        <nav>
+            <ul>
+                <li><a href="#episodes">Episodes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="episodes">
+            <h2>Podcast Episodes</h2>
+            <ul>
+                <li>
+                    <h3>Episode 1: Introduction</h3>
+                    <audio controls>
+                        <source src="https://raw.githubusercontent.com/yourusername/yourrepository/branch/path-to-your-audio-file.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </li>
+                <li>
+                    <h3>Episode 2: Another Episode</h3>
+                    <audio controls>
+                        <source src="https://raw.githubusercontent.com/yourusername/yourrepository/branch/path-to-your-audio-file.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </li>
+            </ul>
+        </section>
+        
+        <section id="spotify">
+            <h2>Spotify</h2>
+            <p>Check out our podcast on Spotify:</p>
+            <a href="https://open.spotify.com/show/your-podcast-id" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify Logo" style="width: 100px;">
+            </a>
+        </section>
+        
+        <section id="about">
+            <h2>About</h2>
+            <p>Welcome to our school podcast! Here, we share stories, interviews, and exciting news about our school community.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 School Podcast. All rights reserved.</p>
+    </footer>
 </body>
 </html>
